@@ -1,4 +1,3 @@
 FROM java:openjdk-8-jdk
-ARG JAR_FILE
-COPY ${JAR_FILE} /application.jar
+COPY target/application-1.0-SNAPSHOT.jar /application.jar
 CMD java -jar application.jar
