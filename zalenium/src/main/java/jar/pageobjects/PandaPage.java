@@ -11,7 +11,7 @@ import com.google.inject.Inject;
 @PageObject
 public class PandaPage {
 
-  private static final String URL =  "http://application:8080";
+  private static final String URL =  "http://application:18080";
 
   @Inject
   private WebDriver webDriver;
